@@ -16,14 +16,15 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require :vendor/:package_name
+$ composer require dxsravel/skeleton
 ```
 
 ## Usage
 
 ``` php
-$skeleton = new DxsRavel\Skeleton();
-echo $skeleton->echoPhrase('Hello, League!');
+use DxsRavel\Skeleton\Daxes;
+$Daxes = new Daxes;
+echo $Daxes->dummy('Hello, League!');
 ```
 
 ## Change log
