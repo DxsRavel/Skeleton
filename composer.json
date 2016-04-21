@@ -1,0 +1,45 @@
+{
+    "name": "dxsravel/skeleton",
+    "type": "library",
+    "description": "Sekeleton for create libraries",
+    "keywords": [
+        "daxes",
+        "dxsravel",
+        "laravel"
+    ],
+    "homepage": "https://github.com/DxsRavel/Skeleton",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurence HR",
+            "email": "laurencehr@gmail.com",
+            "homepage": "http://daxes.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {            
+            "DxsRavel\\Skeleton\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {            
+            "DxsRavel\\Skeleton\\": "tests"
+        }
+    },
+    "scripts": {
+        
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
